@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #c7ced3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+  }
+  
+  main {
+    border: 1px solid #105252;
+    border-radius: 1rem;
+    background-color: #21576e;
+    margin: 2rem 1rem;
+  }
+  
+  .container {
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #0f0f0f;
+    padding-top: 1rem;
+  }
+  
+  #question {
+    font-size: 1.1rem;
+    background-color: #d2dee4;
+    padding: 1.5rem 0;
+    color: black;
+    border-radius: 1rem;
+  }
+  
+  nav {
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    justify-content: center;
+    background-color: white;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin: auto;
+    width: 80%;
+  }
+  
+  button {
+    background-color: #154347f5;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    color: white;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+  
+    body {
+      background-color: #cad7e2;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      padding-top: 2rem;
+      background-image: url("../images/workplace.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  
+    main {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #b1adad;
+      border-radius: 1rem;
+      margin: 4rem auto;
+      background-color: #747070;
+      width: 60%;
+      box-shadow: 0 0 20px #131212;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+  
+    h1 {
+      font-size: 2.5rem;
+      color: #000;
+      padding-top: 1rem;
+    }
+  
+    #question {
+      font-size: 1.2rem;
+      background-color: #c0bebe;
+      padding: 1.4rem;
+      color: black;
+      border-radius: 1rem;
+    }
+  
+    nav {
+      border: 1px solid lightgray;
+      border-radius: 1rem;
+      justify-content: center;
+      background-color: #c0bebe;
+      width: 60%;
+      padding: 1.5rem;
+      font-size: 1.5rem;
+      margin: 1rem auto;
+    }
+  
+    button {
+      background-color: #524f4f;
+      font-size: 1.3rem;
+      justify-content: center;
+      padding: 0.9rem;
+      border-radius: 1rem;
+      color: black;
+    }
+  }
+  
